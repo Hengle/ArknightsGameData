@@ -860,7 +860,6 @@
   "globalBuffs": null,
   "routes": [
     null,
-    null,
     {
       "motionMode": 0,
       "startPosition": {
@@ -2763,36 +2762,22 @@
       "maxTimeWaitingForNextWave": -1.0,
       "fragments": [
         {
-          "preDelay": 0.0,
-          "actions": [
-            {
-              "actionType": 2,
-              "managedByScheduler": true,
-              "key": "activities/a001/tutorial_a001_04",
-              "count": 1,
-              "preDelay": 0.0,
-              "interval": 1.0,
-              "routeIndex": 0,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
-            }
-          ],
-          "name": null
-        }
-      ],
-      "name": null
-    },
-    {
-      "preDelay": 0.0,
-      "postDelay": 0.0,
-      "maxTimeWaitingForNextWave": -1.0,
-      "fragments": [
-        {
           "preDelay": 2.0,
           "actions": [
             {
               "actionType": 5,
+              "managedByScheduler": true,
+              "key": "enemy_1000_gopro_3",
+              "count": 1,
+              "preDelay": 3.0,
+              "interval": 1.0,
+              "routeIndex": 0,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
+              "isUnharmfulAndAlwaysCountAsKilled": false
+            },
+            {
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1000_gopro_3",
               "count": 1,
@@ -2808,11 +2793,11 @@
               "managedByScheduler": true,
               "key": "enemy_1000_gopro_3",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 11.0,
               "interval": 1.0,
               "routeIndex": 2,
               "blockFragment": false,
-              "autoPreviewRoute": true,
+              "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
             },
             {
@@ -2820,7 +2805,7 @@
               "managedByScheduler": true,
               "key": "enemy_1000_gopro_3",
               "count": 1,
-              "preDelay": 11.0,
+              "preDelay": 18.0,
               "interval": 1.0,
               "routeIndex": 3,
               "blockFragment": false,
@@ -2832,7 +2817,7 @@
               "managedByScheduler": true,
               "key": "enemy_1000_gopro_3",
               "count": 1,
-              "preDelay": 18.0,
+              "preDelay": 24.0,
               "interval": 1.0,
               "routeIndex": 4,
               "blockFragment": false,
@@ -2844,21 +2829,9 @@
               "managedByScheduler": true,
               "key": "enemy_1000_gopro_3",
               "count": 1,
-              "preDelay": 24.0,
-              "interval": 1.0,
-              "routeIndex": 5,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
-            },
-            {
-              "actionType": 0,
-              "managedByScheduler": true,
-              "key": "enemy_1000_gopro_3",
-              "count": 1,
               "preDelay": 30.0,
               "interval": 1.0,
-              "routeIndex": 6,
+              "routeIndex": 5,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2870,7 +2843,7 @@
               "count": 2,
               "preDelay": 42.0,
               "interval": 2.0,
-              "routeIndex": 7,
+              "routeIndex": 6,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2882,7 +2855,7 @@
               "count": 2,
               "preDelay": 50.0,
               "interval": 2.0,
-              "routeIndex": 8,
+              "routeIndex": 7,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2894,7 +2867,7 @@
               "count": 2,
               "preDelay": 57.0,
               "interval": 2.0,
-              "routeIndex": 9,
+              "routeIndex": 8,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2906,7 +2879,7 @@
               "count": 1,
               "preDelay": 18.0,
               "interval": 1.0,
-              "routeIndex": 10,
+              "routeIndex": 9,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2918,7 +2891,7 @@
               "count": 1,
               "preDelay": 23.0,
               "interval": 1.0,
-              "routeIndex": 11,
+              "routeIndex": 10,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2930,7 +2903,7 @@
               "count": 2,
               "preDelay": 27.0,
               "interval": 1.0,
-              "routeIndex": 12,
+              "routeIndex": 11,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2942,7 +2915,7 @@
               "count": 2,
               "preDelay": 32.0,
               "interval": 1.0,
-              "routeIndex": 13,
+              "routeIndex": 12,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2954,7 +2927,7 @@
               "count": 2,
               "preDelay": 37.0,
               "interval": 1.0,
-              "routeIndex": 14,
+              "routeIndex": 13,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2966,7 +2939,7 @@
               "count": 1,
               "preDelay": 43.0,
               "interval": 1.0,
-              "routeIndex": 15,
+              "routeIndex": 14,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2978,7 +2951,7 @@
               "count": 1,
               "preDelay": 48.0,
               "interval": 1.0,
-              "routeIndex": 16,
+              "routeIndex": 15,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -2990,7 +2963,7 @@
               "count": 1,
               "preDelay": 53.0,
               "interval": 1.0,
-              "routeIndex": 17,
+              "routeIndex": 16,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3008,7 +2981,7 @@
               "count": 5,
               "preDelay": 3.0,
               "interval": 8.0,
-              "routeIndex": 18,
+              "routeIndex": 17,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3020,7 +2993,7 @@
               "count": 1,
               "preDelay": 5.0,
               "interval": 1.0,
-              "routeIndex": 19,
+              "routeIndex": 18,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3032,7 +3005,7 @@
               "count": 1,
               "preDelay": 10.0,
               "interval": 1.0,
-              "routeIndex": 20,
+              "routeIndex": 19,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3044,7 +3017,7 @@
               "count": 2,
               "preDelay": 16.0,
               "interval": 1.0,
-              "routeIndex": 21,
+              "routeIndex": 20,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3056,7 +3029,7 @@
               "count": 2,
               "preDelay": 22.0,
               "interval": 1.0,
-              "routeIndex": 22,
+              "routeIndex": 21,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3068,7 +3041,7 @@
               "count": 5,
               "preDelay": 6.0,
               "interval": 8.0,
-              "routeIndex": 23,
+              "routeIndex": 22,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3080,7 +3053,7 @@
               "count": 5,
               "preDelay": 8.0,
               "interval": 6.0,
-              "routeIndex": 24,
+              "routeIndex": 23,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3092,7 +3065,7 @@
               "count": 1,
               "preDelay": 25.0,
               "interval": 1.0,
-              "routeIndex": 25,
+              "routeIndex": 24,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3104,7 +3077,7 @@
               "count": 1,
               "preDelay": 27.0,
               "interval": 1.0,
-              "routeIndex": 26,
+              "routeIndex": 25,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3116,7 +3089,7 @@
               "count": 1,
               "preDelay": 28.0,
               "interval": 1.0,
-              "routeIndex": 27,
+              "routeIndex": 26,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3134,7 +3107,7 @@
               "count": 5,
               "preDelay": 3.0,
               "interval": 10.0,
-              "routeIndex": 28,
+              "routeIndex": 27,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3146,7 +3119,7 @@
               "count": 5,
               "preDelay": 5.0,
               "interval": 10.0,
-              "routeIndex": 29,
+              "routeIndex": 28,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3158,7 +3131,7 @@
               "count": 5,
               "preDelay": 7.0,
               "interval": 10.0,
-              "routeIndex": 30,
+              "routeIndex": 29,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3170,7 +3143,7 @@
               "count": 5,
               "preDelay": 4.5,
               "interval": 10.0,
-              "routeIndex": 31,
+              "routeIndex": 30,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3182,7 +3155,7 @@
               "count": 5,
               "preDelay": 6.0,
               "interval": 10.0,
-              "routeIndex": 32,
+              "routeIndex": 31,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3194,7 +3167,7 @@
               "count": 5,
               "preDelay": 7.0,
               "interval": 8.0,
-              "routeIndex": 33,
+              "routeIndex": 32,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3206,7 +3179,7 @@
               "count": 2,
               "preDelay": 25.0,
               "interval": 12.0,
-              "routeIndex": 34,
+              "routeIndex": 33,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "isUnharmfulAndAlwaysCountAsKilled": false
@@ -3218,7 +3191,7 @@
               "count": 2,
               "preDelay": 27.0,
               "interval": 12.0,
-              "routeIndex": 35,
+              "routeIndex": 34,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "isUnharmfulAndAlwaysCountAsKilled": false
